@@ -3,6 +3,8 @@ package com.almanbet11.nyctourguide;
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -55,6 +57,25 @@ public class PlacesAdapter extends ArrayAdapter<Place> {
 
         TextView infoText = listItemView.findViewById(R.id.text_info);
         infoText.setText(currentPlace.getInfo());
+
+        View closeButtonListener = listItemView.findViewById(R.id.go_to_location_view);
+
+        //for making a text look like a link
+        final TextView text = listItemView.findViewById(R.id.location_info);
+        SpannableString string = new SpannableString("Click here to go to place");
+        string.setSpan(new UnderlineSpan(), 0, string.length(), 0);
+        text.setText(string);
+
+        closeButtonListener.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse(currentPlace.getGeoLocation()+"?z=18"));
+
+                getContext().startActivity(intent);
+            }
+        });
 
         return listItemView;
     }

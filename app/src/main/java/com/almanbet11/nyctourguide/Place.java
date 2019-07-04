@@ -11,11 +11,13 @@ public class Place {
 
 
 
-    public Place(String nameOfPlace, String locationAndState,String info, int imageResourceId){
+    public Place(String latitude, String longitude, String  nameOfPlace, String locationAndState,String info, int imageResourceId){
         this.nameOfPlace = nameOfPlace;
         this.locationAndState = locationAndState;
         this.info = info;
         this.imageResourceId = imageResourceId;
+        this.latitude = latitude;
+        this.longitude = longitude;
     }
 
     public String getNameOfPlace(){

@@ -39,41 +39,41 @@ public class FoodsFragment extends Fragment {
 
         final ArrayList<Place> places = new ArrayList<>();
 
-        places.add(new Place("Katz's Delicatessen", "---", "Easily one of the most famous New York City restaurants, Katz’s Delicatessen is an institution that has been serving classic sandwiches since 1888.\n" + "" +
-                "Although they have a variety of foods on their menu, the single reason you should eat at Katz’s Deli is for their pastrami. The pastrami is sensational, fall apart tender, with a perfect ratio of fat to meat, and a crust of black pepper and secret spices. " +
-                "It’s everything you could want in pastrami.",
+        places.add(new Place("40.722232","-73.987430", "Katz's Delicatessen", "161 Ludlow St, NY 10002", "Easily one of the most famous New York City restaurants, Katz’s Delicatessen is an institution that has been serving classic sandwiches since 1888.\n " +
+        "\n" + "Although they have a variety of foods on their menu, the single reason you should eat at Katz’s Deli is for their pastrami. The pastrami is sensational, fall apart tender, with a perfect ratio of fat to meat, and a crust of black pepper and secret spices. It’s everything you could want in pastrami.\n" + "\n" +
+                "When you enter Katz’s Delicatessen you’ll be handed a little yellow ticket (make sure you hold onto this and don’t lose it or they will charge you, seriously). Take the little yellow ticket and go to the bar-style counter and hand it to a cutter. The cutter will take your order, and fix your sandwiches. " +
+                "Oftentimes your cutter will give you a sample of the pastrami as he’s making your sandwich. It’s expected that you give your cutter a tip.",
                 R.drawable.foods_1_katz));
 
-        places.add(new Place("Spacy Village", "---", "“[The chicken] is marinated in Budweiser, salt, pepper and MSG.”\n" +
-                "\n" +
-                "As I was rummaging my chopsticks through the beauty that is the “Spciy Big Tray Chicken” at Spicy Village restaurant, I caught a glimpse of an article written by the New York Times posted on the wall, " +
-                "written all about Spicy Village and especially focused on the dish I was about to devour.",
+        places.add(new Place("40.717006", "-73.993244" , "Spacy Village", "72 Forsyth St, NY 10002", "“[The chicken] is marinated in Budweiser, salt, pepper and MSG.”\n" +
+                "\nAs I was rummaging my chopsticks through the beauty that is the “Spciy Big Tray Chicken” at Spicy Village restaurant, I caught a glimpse of an article written by the New York Times posted on the wall, written all about Spicy Village and especially focused on the dish I was about to devour.\n" +
+                "\nSpicy Village is a tiny restaurant located in Chinatown in Manhattan that specializes in home-cooked style dishes from the central Henan province of China, plus some extra dishes that have roots in Xinjiang – the Spicy Big Tray Chicken being one of them.",
                 R.drawable.foods_2_spicy_village));
 
-        places.add(new Place("Di Fara Pizza", "---","When you think about food in New York City, pizza is probably one of the first foods you think of; " +
-                "Not eating pizza in NYC would be the same as getting into a car and not going anywhere – you simply do not do that.\n" +
-                "In any New York City travel or food guide, you’ll find dozens of legendary pizza restaurants like Lombardi’s, which is one of the first pizzerias in America, and Grimaldi’s which is known for their coal brick oven pizza.",
+        places.add(new Place("40.625040", "-73.961545", "Di Fara Pizza", "1424 Avenue, NY 11230","When you think about food in New York City, pizza is probably one of the first foods you think of; Not eating pizza in NYC would be the same as getting into a car and not going anywhere – you simply do not do that.\n" +
+                "\nIn any New York City travel or food guide, you’ll find dozens of legendary pizza restaurants like Lombardi’s, which is one of the first pizzerias in America, and Grimaldi’s which is known for their coal brick oven pizza.\n" +
+                "\nBut when I asked where to go for the best pizza in New York City, I got an overwhelming answer to try Di Fara Pizza in Brooklyn",
                 R.drawable.foods_3_difara));
 
-        places.add(new Place("The Halal Guys", "---", "What could be so good about chicken over rice?\n"+
+        places.add(new Place("40.761915","-73.979361","The Halal Guys", "West 53rd St, NY 10019", "What could be so good about chicken over rice?\n"+
                 "That’s what I thought to myself before ever eating at The Halal Guys, one of the original New York City street food carts. " +
                 "Their food is Middle Eastern inspired and they serve Halal food as their name pretty clearly suggests.\n" +
                 "“Make sure you get a lot of sauce, both the white sauce and the red chili sauce,” are what many people told me about eating at The Halal Guys.",
                 R.drawable.foods_4_halal_guys));
 
-        places.add(new Place("Russ & Daughters", "---", "Another New York City heritage staple is Russ & Daughters, a deli with beginnings as a street food pushcart and has been “Appetizing since 1914.”\n" +
+        places.add(new Place("40.722609","-73.988253","Russ & Daughters", "Houston St, NY 10002", "Another New York City heritage staple is Russ & Daughters, a deli with beginnings as a street food pushcart and has been “Appetizing since 1914.”\n" +
                 "Russ & Daughters is one of the most famous New York City restaurants for serving all types of salmon, both smoked and salt cured, with bagels and cream cheese. " +
                 "They also have a pretty extensive selection of other delicious foods like herring, salads, and dried fruits and nuts.",
                 R.drawable.foods_5_russ));
-
-        places.add(new Place("Meske Ethiopian", "---", "Along with more famous New York City restaurants that have become institutions in the city, NYC also provides you with the opportunity to sample cuisines from around the world.\n" +
-                "Ethiopian food happens to be a personal favorite of mine, and when I was in NYC, I met up with my good fried Sarah from OHK World, and she took me to one of her favorite Ethiopian restaurants in the city: Meske Ethiopian Restaurant.",
-                R.drawable.foods_6_meske_epthiopian));
-
-        places.add(new Place("Los Tacos #1", "---", "After graduating from University in the United States, in 2009 I decided to travel to Southeast Asia, and I never moved back.\n" +
-                "And as much as I love Thai food, one of the only main cuisines I really miss living in Bangkok is Mexican food. It’s not the Tex-Mex type of food that I miss, " +
-                "but it’s the real proper tacos where you can taste the meat, the smokiness, and the fiery dry chilies in the salsa.",
-                R.drawable.foods_7_los_tacos));
+//
+//        places.add(new Place("Meske Ethiopian", "---", "Along with more famous New York City restaurants that have become institutions in the city, NYC also provides you with the opportunity to sample cuisines from around the world.\n" +
+//                "Ethiopian food happens to be a personal favorite of mine, and when I was in NYC, I met up with my good fried Sarah from OHK World, and she took me to one of her favorite Ethiopian restaurants in the city: Meske Ethiopian Restaurant.",
+//                R.drawable.foods_6_meske_epthiopian));
+//
+//        places.add(new Place("Los Tacos #1", "---", "After graduating from University in the United States, in 2009 I decided to travel to Southeast Asia, and I never moved back.\n" +
+//                "And as much as I love Thai food, one of the only main cuisines I really miss living in Bangkok is Mexican food. It’s not the Tex-Mex type of food that I miss, " +
+//                "but it’s the real proper tacos where you can taste the meat, the smokiness, and the fiery dry chilies in the salsa.",
+//                R.drawable.foods_7_los_tacos));
 
 
         PlacesAdapter adapter = new PlacesAdapter(getActivity(), places, R.color.colorForFoods);
