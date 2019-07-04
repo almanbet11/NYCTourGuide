@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NYC tour guide</string>
+    <string name="sights_text">Sights</string>
+    <string name="parks_text">Parks</string>
+    <string name="foods_text">Foods</string>
+    <string name="malls_text">Malls</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

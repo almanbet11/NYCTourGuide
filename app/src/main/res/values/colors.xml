@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFCC80</color>
+    <color name="colorPrimaryDark">#FF8099</color>
+    <color name="colorForSights">#99D9FF</color>
+    <color name="colorForParks">#AED581</color>
+    <color name="colorForFoods">#E57373</color>
+    <color name="colorForMalls">#D9B3FF</color>
+</resources>
