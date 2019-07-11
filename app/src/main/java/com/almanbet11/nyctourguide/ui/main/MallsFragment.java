@@ -1,6 +1,5 @@
 package com.almanbet11.nyctourguide.ui.main;
 
-
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
